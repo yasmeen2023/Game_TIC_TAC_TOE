@@ -56,6 +56,7 @@ void replace_element(){
     else{
         player='x';
     }
+    delete position;
 }
 char WhoWin(){
     int X_counter=0,O_counter=0,counter=0;
